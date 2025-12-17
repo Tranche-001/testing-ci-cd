@@ -1,6 +1,6 @@
 services:
   express-app:
-    build: .
+    image: tranche100/cicdtest:latest
     ports:
     - 8080:8080
     labels:
